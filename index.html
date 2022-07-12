@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="container" id="container">
+      <h1 class="title">Clima</h1>
+      <div class="inputCiudad">
+        <form action="" class="searchCity" id="searchCity">En donde vivis,
+          <label for="">Busca entre mas de 200.000 ciudades!
+            <br>
+            <br>
+            <br>
+            <input
+            type="text"
+            class="searchInput"
+            id="searchInput"
+            placeholder="Tu ciudad"
+            />
+            <button type="submit">Buscar!</button>
+            
+          </label>
+        </form>
+        
+      </div>
+      <div class="temperatura">
+        <div>
+          <div class="currentTemp" id="currentTemp"></div>
+          <span>°C</span>
+        </div>
+      </div>
+      
+      <img src="" alt="ClimateIcon" class="icon" id="icon" />
+      <div class="iconDesc" id="iconDesc"></div>
+      
+      <div class="lugar" id="lugar">
+        <div class="ciudad" id="ciudad"></div>
+      </div>
+      
+      <div class="minMax" id="minMax">
+        <div>Minima: <span class="min" id="min"></span>°C <span></span></div>
+        <div>Maxima: <span class="max" id="max"></span>°C <span></span></div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    
+    <div class="mayonesa">
+     <a href="https://www.apple.com/la/iphone/"> <i class="fa fa-apple" id="apple"></i> </a>
+     <a href="https://twitter.com/"><i class="fa fa-twitter" id="twitter"></i></a> 
+     <a href="https://tenor.com/es/ver/gato-bailando-crazy-gif-18254622"><i class="fa fa-github-square github" id="github"></i></a> 
+     <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square" id="facebook"></i></a> 
+    </div>
+    
+   
+  </body>
+  </html>
+  
